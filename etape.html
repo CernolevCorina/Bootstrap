@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Procesul de ingrijire (de nursing)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <script src="primul.js"></script>
     <link href='https://css.gg/facebook.css' rel='stylesheet'>
@@ -15,107 +17,152 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <header>
-        <div>
-            <p class="logo"><strong>Free to be<br> myself</strong></p>
+<body class="m-2">
+    <header class="m-0 sticky-top bg-white">
+        <div class="container m-2">
+            <div class="row">
+                <div class="col-md-2 col-6">
+                    <p class="logo mt-2 ms-2 p-2 text-center"><strong>Free to be<br> myself</strong></p>
+                </div>
+                <nav id="mobile-menu" class="navbar navbar-expand-lg navbar-light col-md-10 col-6">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <a href="index.html" class="navbar-brand">Home</a>
+                            <a href="etape.html" class="navbar-brand">Etape</a>
+                            <a href="clasificare.html" class="navbar-brand">Clasificare</a>
+                            <a href="model.html" class="navbar-brand">Model conceptual</a>
+                            <a href="contacte.html" class="navbar-brand">Contacteaza-ne</a>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Nevoi fundamentale</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-respira/"
+                                                target="blank">Nevoia de a respira
+                                                &#351;i a avea o bun&#259; circula&#355;ie</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-se-alimenta-si-de-a-se-hidrata/"
+                                                target="blank">Nevoia
+                                                de a bea &#351;i a m&acirc;nca</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-elimina/"
+                                                target="blank">Nevoia de a
+                                                elimina</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-se-misca-si-de-a-avea-o-buna-postura/"
+                                                target="blank">Nevoia
+                                                de a se mi&#351;ca &#351;i a avea o bun&#259; postur&#259; </a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-dormi-si-a-se-odihni/"
+                                                target="blank">Nevoia
+                                                de a dormi
+                                                &#351;i a se odihni</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-se-imbraca-si-dezbraca/"
+                                                target="blank">Nevoia de a
+                                                se
+                                                &icirc;mbr&#259;ca &#351;i dezbr&#259;ca</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-isi-mentine-temperatura-corpului-in-limite-normale/"
+                                                target="blank">Nevoia de a men&#355;ine temperatura corpului &icirc;n
+                                                limitele
+                                                normei</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-fi-curat-ingrijit-a-proteja-tegumentele-si-mucoasele/"
+                                                target="blank">Nevoia
+                                                de a fi curat, &icirc;ngrijit, de a proteja tegumentele &#351;i
+                                                mucoasele</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-evita-pericolele/"
+                                                target="blank">Nevoia de
+                                                a evita
+                                                pericolele</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-comunica/"
+                                                target="blank">Nevoia de a
+                                                comunica</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-actiona-conform-propriilor-convingeri-si-valori/"
+                                                target="blank">Nevoia de a ac&#355;iona conform propriilor convingeri
+                                                &#351;i valori, de a
+                                                practica
+                                                religia</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-se-realiza/"
+                                                target="blank">Nevoia de a fi
+                                                preocupat
+                                                &icirc;n vederea realiz&#259;rii</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-se-recrea/"
+                                                target="blank">Nevoia de a se
+                                                recrea</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://paginadenursing.ro/nevoia-de-a-invata/"
+                                                target="blank">Nevoia
+                                                de a
+                                                &icirc;nv&#259;&#355;a
+                                                cum s&#259;-&#355;i p&#259;strezi
+                                                s&#259;n&#259;tatea</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler ms-5 mb-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
         </div>
-        <nav id="mobile-menu">
-            <a href="index.html">Home</a>
-            <a href="etape.html">Etape</a>
-            <a href="clasificare.html">Clasificare</a>
-            <a href="model.html">Model conceptual</a>
-            <ul>
-                <li class="active"><a href="#">Nevoi fundamentale</a>
-                    <ul class="dropdown-content">
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-respira/" target="blank">Nevoia de a respira
-                                &#351;i a avea o bun&#259; circula&#355;ie</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-se-alimenta-si-de-a-se-hidrata/"
-                                target="blank">Nevoia
-                                de a bea &#351;i a m&acirc;nca</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-elimina/" target="blank">Nevoia de a
-                                elimina</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-se-misca-si-de-a-avea-o-buna-postura/"
-                                target="blank">Nevoia
-                                de a se mi&#351;ca &#351;i a avea o bun&#259; postur&#259; </a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-dormi-si-a-se-odihni/" target="blank">Nevoia
-                                de a dormi
-                                &#351;i a se odihni</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-se-imbraca-si-dezbraca/"
-                                target="blank">Nevoia de a se
-                                &icirc;mbr&#259;ca &#351;i dezbr&#259;ca</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-isi-mentine-temperatura-corpului-in-limite-normale/"
-                                target="blank">Nevoia de a men&#355;ine temperatura corpului &icirc;n limitele
-                                normei</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-fi-curat-ingrijit-a-proteja-tegumentele-si-mucoasele/"
-                                target="blank">Nevoia
-                                de a fi curat, &icirc;ngrijit, de a proteja tegumentele &#351;i
-                                mucoasele</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-evita-pericolele/" target="blank">Nevoia de
-                                a evita
-                                pericolele</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-comunica/" target="blank">Nevoia de a
-                                comunica</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-actiona-conform-propriilor-convingeri-si-valori/"
-                                target="blank">Nevoia de a ac&#355;iona conform propriilor convingeri &#351;i valori, de
-                                a practica
-                                religia</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-se-realiza/" target="blank">Nevoia de a fi
-                                preocupat
-                                &icirc;n vederea realiz&#259;rii</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-se-recrea/" target="blank">Nevoia de a se
-                                recrea</a></li>
-                        <li><a href="https://paginadenursing.ro/nevoia-de-a-invata/" target="blank">Nevoia de a
-                                &icirc;nv&#259;&#355;a
-                                cum s&#259;-&#355;i p&#259;strezi
-                                s&#259;n&#259;tatea</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <a href="contacte.html">Contacteaza-ne</a>
-        </nav>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i></a>
     </header>
 
     <main class="page2">
-        <img src="imagini/plandeingrijire-766x200.jpg" alt="Imagine" class="image">
+        <img src="imagini/plandeingrijire-766x200.jpg" alt="Imagine" class="w-100">
         <div class="menu-page2">
-            <article onclick="menu1()" class="menu-button">
-                <img src="imagini/Group4.svg" alt="Imagine">
-                <h3>Culegerea de date</h3>
-            </article>
-            <article onclick="menu2()" class="menu-button">
-                <img src="imagini/Group4.svg" alt="Imagine">
-                <h3>Analiza si interpretarea datelor</h3>
-            </article>
-            <article onclick="menu3()" class="menu-button">
-                <img src="imagini/Group4.svg" alt="Imagine">
-                <h3>Planificarea ingrijirilor</h3>
-            </article>
-            <article onclick="menu4()" class="menu-button">
-                <img src="imagini/Group4.svg" alt="Imagine">
-                <h3>Realizarea interventiilor</h3>
-            </article>
-            <article onclick="menu5()" class="menu-button">
-                <img src="imagini/Group4.svg" alt="Imagine">
-                <h3>Evaluarea ingrijirilor</h3>
-            </article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-0 col-md-1"></div>
+                    <article onclick="menu1()" class="menu-button col-6 col-md-2 container p-2 d-grid">
+                        <img src="imagini/Group4.svg" alt="Imagine" class="row">
+                        <h3 class="row text-center fw-bold">Culegerea de date</h3>
+                    </article>
+                    <article onclick="menu2()" class="menu-button col-6 col-md-2 container p-2 d-grid">
+                        <img src="imagini/Group4.svg" alt="Imagine" class="row">
+                        <h3 class="row text-center fw-bold">Analiza si interpretarea datelor</h3>
+                    </article>
+                    <article onclick="menu3()" class="menu-button col-6 col-md-2 container p-2 d-grid">
+                        <img src="imagini/Group4.svg" alt="Imagine" class="row">
+                        <h3 class="row text-center fw-bold">Planificarea ingrijirilor</h3>
+                    </article>
+                    <article onclick="menu4()" class="menu-button col-6 col-md-2 container p-2 d-grid">
+                        <img src="imagini/Group4.svg" alt="Imagine" class="row">
+                        <h3 class="row text-center fw-bold">Realizarea interventiilor</h3>
+                    </article>
+                    <article onclick="menu5()" class="menu-button col-6 col-md-2 container p-2 d-grid">
+                        <img src="imagini/Group4.svg" alt="Imagine" class="row">
+                        <h3 class="row text-center fw-bold">Evaluarea ingrijirilor</h3>
+                    </article>
+                    <div class="col-0 col-1"></div>
+                </div>
+            </div>
         </div>
-        <div class="content">
-            <h3>Ce este?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce este?</h3>
             <p> <strong> Culegerea de date</strong> este faza inițială, debutul procesului de îngrijire de la care
                 începe derularea
                 acestui
                 demers. Culegerea informațiilor este un proces continuu, în sensul că pe tot parcursul muncii sale,
                 asistenta nu încetează de a observa, de a întreba și de a nota datele privind pe fiecare pacient.
             </p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Datele se pot clasifica in doua mari categorii:</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Datele se pot clasifica in doua mari categorii:</h3>
             <ol>
                 <li><strong>Date obiective</strong>, prezinta o oarecare standardizare, sunt observabile, eventual
                     masurabile
@@ -125,7 +172,7 @@
                     ameteli,
                     greata, anxietatea, disconfortul fizic).</li>
             </ol>
-            <h3>Datele se mai clasifica in:</h3>
+            <h3 class="fw-bold text-center">Datele se mai clasifica in:</h3>
             <ol>
                 <li> <strong>Date relative stabile </strong> = nume, prenume, varsta, sex, starea civila, obiceiuri
                     personale
@@ -146,24 +193,24 @@
                     nursing.
                 </li>
             </ol>
-            <div class="buttons">
-                <button class="back1" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="back1 ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce este?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce este?</h3>
             <p><strong>Analiza si interpretarea datelor</strong> este etapa a doua a procesului de ingrijire .
                 Pentru ca
                 datele culese sa poata orienta asistenta spre interventii individualizate este important ca ele sa
                 fie
                 analizate si interpretate. Aceasta presupune identificarea nevoilor specifice pacientului, nu numai
                 celor care caracterizeaza orice fiinta umana.</p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Analiza datelor se face prin:</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Analiza datelor se face prin:</h3>
             <ol>
                 <li>Examinarea datelor</li>
                 <li>Clasificarea datelor: date de independenta - acelea care permit satisfacerea automata a nevoilor
@@ -172,55 +219,60 @@
                 <li>Stabilirea problemei de ingrijire</li>
                 <li>Recunoasterea legaturilor si a prioritatilor</li>
             </ol>
-            <h3>Interpretarea datelor</h3>
+            <h3 class="fw-bold text-center">Interpretarea datelor</h3>
             <p><strong>Interpretarea datelor</strong> inseamna a da un sens, a explica originea sau cauza problemei
                 de dependenta, adica a defini sursele de dificultate.</p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
-                <button class="back" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
+                <button class="back ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content" id="content-grid">
-            <h3>Departajarea intre manifestarile de independenta si manifestarile de dependenta</h3>
-            <div class="table">
-                <p><strong>
-                        Comportamente ale pacientului care-i favorizeaza satisfacerea nevoilor
-                    </strong></p>
-                <p><strong>
-                        Comportamente ale pacientului care nu-i favorizeaza satisfacerea nevoilor
-                    </strong></p>
-                <div>
-                    <p>Isi ia masa regulat cu pofta</p>
-                    <p>Alimentatie variata care respecta normele</p>
-                    <p>Nici o alergie alimentara</p>
-                    <p>Hidratare in jur de 2000 ml/zi</p>
+        <div class="content p-2" id="content-grid">
+            <h3 class="fw-bold text-center">Departajarea intre manifestarile de independenta si manifestarile de
+                dependenta</h3>
+            <div class="container">
+                <div class="row">
+                    <p class="col-12 col-md-6"><strong>
+                            Comportamente ale pacientului care-i favorizeaza satisfacerea nevoilor
+                        </strong></p>
+                    <p class="col-12 col-md-6"><strong>
+                            Comportamente ale pacientului care nu-i favorizeaza satisfacerea nevoilor
+                        </strong></p>
                 </div>
-                <div>
-                    <p>Lipsa poftei de mancare</p>
-                    <p>Greutate la stomac atunci cand mananca</p>
-                    <p>Dificultate in a dormi de doua zile</p>
-                    <p>Spune ca nu simte gustul alimentelor pentru ca este prea nervos si se gandeste cum va fi
-                        la intoarcerea lui acasa
-                    </p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>Isi ia masa regulat cu pofta</p>
+                        <p>Alimentatie variata care respecta normele</p>
+                        <p>Nici o alergie alimentara</p>
+                        <p>Hidratare in jur de 2000 ml/zi</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>Lipsa poftei de mancare</p>
+                        <p>Greutate la stomac atunci cand mananca</p>
+                        <p>Dificultate in a dormi de doua zile</p>
+                        <p>Spune ca nu simte gustul alimentelor pentru ca este prea nervos si se gandeste cum va fi
+                            la intoarcerea lui acasa
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="buttons">
-                <button class="back1" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="back1 ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce este?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce este?</h3>
             <p><strong>Planificarea ingrijirilor </strong> ineamna stabilirea unui plan de interventie, prevederea
                 etapelor, a
                 mijloacelor de desfasurare si a precautiilor care trebuie luate.</p>
             <p>Planul de interventie tine cont si de prescriptiile medicale. Planul de interventie cuprinde doua
                 compartimente: obiectivele de ingrijire si interventiile</p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
             </div>
         </div>
-        <div class="content">
-            <h3>In executarea ingrijirilor sunt antrenati:</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">In executarea ingrijirilor sunt antrenati:</h3>
             <p>Deoarece planul de ingrijire este stabilit pornind de la nevoile si capacitatile pacientului,
                 acesta are dreptul sa participe la deciziile privind interventiile, are dreptul sa-si spuna
                 opinia asupra ingrijirilor pe care le doreste. Obiectivul principal al ingrijirilor este de a
@@ -229,13 +281,13 @@
                 pregatirea planului de interventii si in elaborarea prioritatilor.</p>
             <p>Asistenta trebuie sa informeze persoana despre actiunile pe care le intreprinde si sa-i solicite
                 acordul</p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
-                <button class="back" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
+                <button class="back ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce presupune planificarea?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce presupune planificarea?</h3>
             <p>Planificarea presupune stabilirea prioritatilor de ingrijire in urma carora se stabilesc
                 obiectivele. Ierarhizarea nevoilor, dupa Maslow, furnizeaza, de exemplu, o metoda de a stabili
                 prioritatile:</p>
@@ -248,23 +300,23 @@
             <p><strong>Precizare:</strong> Problemele care trebuie trecute in planul de ingrijire se aleg cu
                 discernamant, deoarece, teoretic, fiecare pacient ar putea avea 50-60 de diagnostice de
                 ingrijire si atunci folosirea planului ar fi aproape imposibila.</p>
-            <div class="buttons">
-                <button class="back1" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="back1 ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce este?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce este?</h3>
             <p><strong>Realizarea ingrijirilor </strong> constituie momentul indeplinirii constiente si voluntare a
                 interventiilor planificate pentru a obtine rezultatul asteptat. Aplicarea in practica a actiunilor
                 are ca scop sa ajute pacientul sa-si mentina sau sa-si recapete independenta sau un oarecare nivel
                 de independenta.
             </p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
             </div>
         </div>
-        <div class="content">
-            <h3>In executarea ingrijirilor sunt antrenati:</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">In executarea ingrijirilor sunt antrenati:</h3>
             <p><strong>Pacientul:</strong> executa actiunile planificate pentru el, in functie de resursele
                 proprii</p>
             <p><strong>Asistenta:</strong> supervizeaza aceste actiuni, incurajeaza, informeaza, isi
@@ -272,37 +324,37 @@
             <p><strong>Echipa de ingrijire:</strong> asigura completarea si eficacitatea activitatii
                 profesionale</p>
             <p><strong>Familia:</strong> in anumite circumstante este alaturi in actiuni de ingrijire</p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
-                <button class="back" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
+                <button class="back ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Interventia se va formula clar si precis, se va indica:</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Interventia se va formula clar si precis, se va indica:</h3>
             <ul>
                 <li>Cui se adreseaza actiunea (persoana, familie, etc.</li>
                 <li>Orarul(inainte de masa, la doua ore, de 3 ori pe zi, la culcare sau o data</li>
                 <li>Natura actiunii cu un verb activ, observabila, masurabila</li>
                 <li>Semnatura asistentei care planifica, executa ingrijirile</li>
             </ul>
-            <div class="buttons">
-                <button class="back1" onclick="myFunction2()">Back</button>
+            <div class="buttons d-grid">
+                <button class="back1 ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce este?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce este?</h3>
             <p><strong>Evaluarea ingrijirilor </strong> este a cincia si ultima parte a demersului de ingrijire.
                 Evaluarea consta in a aduce o apreciere asupra progresului pacientului in raport cu interventiile
                 asistentei. Evaluarea este o conditie absoluta a calitatii ingrijirilor. Daca interventiile aplicate
                 nu si-au atins scopul lor, atunci trebuie sa stim de ce nu avem rezultatul contat si trebuie sa stim
                 cum sa corectam situatia.
             </p>
-            <div class="buttons">
-                <button class="next" onclick="myFunction1()">Next</button>
+            <div class="buttons d-grid">
+                <button class="next ronded-pill me-2" onclick="myFunction1()">Next</button>
             </div>
         </div>
-        <div class="content">
-            <h3>Ce se evalueaza?</h3>
+        <div class="content p-2">
+            <h3 class="fw-bold text-center">Ce se evalueaza?</h3>
             <div>
                 <p>1. Rezultatul otinut sau schimbarea observata - adica reactia pacientului la ingrijiri</p>
                 <p>Cand asistenta formuleaza obiectivele ingrijirilor, ea exprima ce rezultat prevede sa se
@@ -313,37 +365,46 @@
                     deasemenea posibil ca lui sa-i displaca unele interventii, desi beneficiaza de o ingrijire
                     excelenta.
                 </p>
-                <div class="buttons">
-                    <button class="back1" onclick="myFunction2()">Back</button>
+                <div class="buttons d-grid">
+                    <button class="back1 ronded-pill me-2 ms-2" onclick="myFunction2()">Back</button>
                 </div>
             </div>
         </div>
-        <img src="imagini/unnamed1.jpg" alt="Image" class="image">
+        <img src="imagini/unnamed1.jpg" alt="Image" class="w-100">
     </main>
 
-    <footer>
-        <div class="contacts">
-            <h3>Date de contact</h3>
-            <div class="date">
-                <p>str. Iachir 29A/1 Orhei, Moldova.</p>
-                <p>Email: reception@termal.md</p>
-                <p>Phone: + 373 22 63 29 29</p>
-                <p>Viber: 079229993</p>
-                <p>WhatsApp: 079229993</p>
-                <p>Telegram: 079229993</p>
+    <footer class="bg-dark p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>Date de contact</h3>
+                    <div>
+                        <p>str. Iachir 29A/1 Orhei, Moldova.</p>
+                        <p>Email: reception@termal.md</p>
+                        <p>Phone: + 373 22 63 29 29</p>
+                        <p>Viber: 079229993</p>
+                        <p>WhatsApp: 079229993</p>
+                        <p>Telegram: 079229993</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h3>Orar de munca</h3>
+                    <p>Luni-Vineri</p>
+                    <p>09.00-20.00</p>
+                </div>
+                <div class="col-4">
+                    <i class="gg-facebook d-inline-block m-3"></i>
+                    <i class="gg-phone d-inline-block m-3"></i>
+                    <i class="gg-instagram d-inline-block m-3"></i>
+                </div>
             </div>
         </div>
-        <div class="work">
-            <h3>Orar de munca</h3>
-            <p>Luni-Vineri</p>
-            <p>09.00-20.00</p>
-        </div>
-        <div class="icons">
-            <i class="gg-facebook"></i>
-            <i class="gg-phone"></i>
-            <i class="gg-instagram"></i>
-        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>
 
 </html>

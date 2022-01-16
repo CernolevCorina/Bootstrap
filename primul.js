@@ -1,12 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("mobile-menu");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-
 function menu1() {
     var x = document.getElementsByClassName("content");
     var y = document.getElementsByClassName("menu-button");
