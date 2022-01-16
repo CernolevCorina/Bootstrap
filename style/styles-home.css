@@ -1,0 +1,37 @@
+body{
+  font-family: Roboto;
+}
+
+header div p.logo{
+  font-family: Vivaldi; 
+  font-size: 24px; 
+  text-align: center;
+  width: fit-content;
+  padding: 3px;
+  border-style: dashed;
+  animation-name: Bord;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Bord{
+  0% {border-color:rebeccapurple;}
+  25% {border-color: salmon;}
+  50% {border-color: yellow;}
+  100% {border-color: black;}
+}
+
+main div.text-home{
+  background: #F5F5DC;
+  height: 250px;
+}
+
+main div.text-home p{
+  place-self: center;
+  font-size: 24px;
+}
+
+footer{
+  color: #a9a9a9;
+  font-size: 18px;
+}
