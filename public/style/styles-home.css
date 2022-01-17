@@ -1,10 +1,14 @@
-body{
+body {
   font-family: Roboto;
 }
 
-header div p.logo{
+nav {
+  font-size: 20px;
+}
+
+header div p.logo {
   font-family: Vivaldi; 
-  font-size: 24px; 
+  font-size: 14px; 
   text-align: center;
   width: fit-content;
   padding: 3px;
@@ -14,24 +18,24 @@ header div p.logo{
   animation-iteration-count: infinite;
 }
 
-@keyframes Bord{
+@keyframes Bord {
   0% {border-color:rebeccapurple;}
   25% {border-color: salmon;}
   50% {border-color: yellow;}
   100% {border-color: black;}
 }
 
-main div.text-home{
+main div.text-home {
   background: #F5F5DC;
   height: 250px;
 }
 
-main div.text-home p{
+main div.text-home p {
   place-self: center;
   font-size: 24px;
 }
 
-footer{
+footer {
   color: #a9a9a9;
   font-size: 18px;
 }

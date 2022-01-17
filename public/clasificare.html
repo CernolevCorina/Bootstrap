@@ -18,115 +18,117 @@
 </head>
 
 <body class="m-2">
-    <header class="m-0 sticky-top bg-white">
-        <div class="container m-2">
-            <div class="row">
-                <div class="col-md-2 col-6">
+    <header class="m-0">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
                     <p class="logo mt-2 ms-2 p-2 text-center"><strong>Free to be<br> myself</strong></p>
-                </div>
-                <nav id="mobile-menu" class="navbar navbar-expand-lg navbar-light col-md-10 col-6">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <a href="index.html" class="navbar-brand">Home</a>
-                            <a href="etape.html" class="navbar-brand">Etape</a>
-                            <a href="clasificare.html" class="navbar-brand">Clasificare</a>
-                            <a href="model.html" class="navbar-brand">Model conceptual</a>
-                            <a href="contacte.html" class="navbar-brand">Contacteaza-ne</a>
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                        data-bs-toggle="dropdown" aria-expanded="false">Nevoi fundamentale</a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-respira/"
-                                                target="blank">Nevoia de a respira
-                                                &#351;i a avea o bun&#259; circula&#355;ie</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-se-alimenta-si-de-a-se-hidrata/"
-                                                target="blank">Nevoia
-                                                de a bea &#351;i a m&acirc;nca</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-elimina/"
-                                                target="blank">Nevoia de a
-                                                elimina</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-se-misca-si-de-a-avea-o-buna-postura/"
-                                                target="blank">Nevoia
-                                                de a se mi&#351;ca &#351;i a avea o bun&#259; postur&#259; </a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-dormi-si-a-se-odihni/"
-                                                target="blank">Nevoia
-                                                de a dormi
-                                                &#351;i a se odihni</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-se-imbraca-si-dezbraca/"
-                                                target="blank">Nevoia de a
-                                                se
-                                                &icirc;mbr&#259;ca &#351;i dezbr&#259;ca</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-isi-mentine-temperatura-corpului-in-limite-normale/"
-                                                target="blank">Nevoia de a men&#355;ine temperatura corpului &icirc;n
-                                                limitele
-                                                normei</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-fi-curat-ingrijit-a-proteja-tegumentele-si-mucoasele/"
-                                                target="blank">Nevoia
-                                                de a fi curat, &icirc;ngrijit, de a proteja tegumentele &#351;i
-                                                mucoasele</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-evita-pericolele/"
-                                                target="blank">Nevoia de
-                                                a evita
-                                                pericolele</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-comunica/"
-                                                target="blank">Nevoia de a
-                                                comunica</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-actiona-conform-propriilor-convingeri-si-valori/"
-                                                target="blank">Nevoia de a ac&#355;iona conform propriilor convingeri
-                                                &#351;i valori, de a
-                                                practica
-                                                religia</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-se-realiza/"
-                                                target="blank">Nevoia de a fi
-                                                preocupat
-                                                &icirc;n vederea realiz&#259;rii</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-se-recrea/"
-                                                target="blank">Nevoia de a se
-                                                recrea</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="https://paginadenursing.ro/nevoia-de-a-invata/"
-                                                target="blank">Nevoia
-                                                de a
-                                                &icirc;nv&#259;&#355;a
-                                                cum s&#259;-&#355;i p&#259;strezi
-                                                s&#259;n&#259;tatea</a></li>
-                                    </ul>
-                                </li>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="etape.html">Etape</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clasificare.html">Clasificare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="model.html">Model conceptual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacte.html">Contacteaza-ne</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">Nevoi fundamentale</a>
+                            <ul class="dropdown-menu w-md-100 w-" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-respira/"
+                                        target="blank">Nevoia
+                                        de a respira
+                                        &#351;i a avea o bun&#259; circula&#355;ie</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-se-alimenta-si-de-a-se-hidrata/"
+                                        target="blank">Nevoia
+                                        de a bea &#351;i a m&acirc;nca</a></li>
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-elimina/"
+                                        target="blank">Nevoia
+                                        de a
+                                        elimina</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-se-misca-si-de-a-avea-o-buna-postura/"
+                                        target="blank">Nevoia
+                                        de a se mi&#351;ca &#351;i a avea o bun&#259; postur&#259; </a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-dormi-si-a-se-odihni/"
+                                        target="blank">Nevoia
+                                        de a dormi
+                                        &#351;i a se odihni</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-se-imbraca-si-dezbraca/"
+                                        target="blank">Nevoia de a
+                                        se
+                                        &icirc;mbr&#259;ca &#351;i dezbr&#259;ca</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-isi-mentine-temperatura-corpului-in-limite-normale/"
+                                        target="blank">Nevoia de a men&#355;ine temperatura corpului &icirc;n limitele
+                                        normei</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-fi-curat-ingrijit-a-proteja-tegumentele-si-mucoasele/"
+                                        target="blank">Nevoia
+                                        de a fi curat, &icirc;ngrijit, de a proteja tegumentele &#351;i
+                                        mucoasele</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-evita-pericolele/"
+                                        target="blank">Nevoia de
+                                        a evita
+                                        pericolele</a></li>
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-comunica/"
+                                        target="blank">Nevoia
+                                        de a
+                                        comunica</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://paginadenursing.ro/nevoia-de-a-actiona-conform-propriilor-convingeri-si-valori/"
+                                        target="blank">Nevoia de a ac&#355;iona conform propriilor convingeri &#351;i
+                                        valori, de a
+                                        practica
+                                        religia</a></li>
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-se-realiza/"
+                                        target="blank">Nevoia de a fi
+                                        preocupat
+                                        &icirc;n vederea realiz&#259;rii</a></li>
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-se-recrea/"
+                                        target="blank">Nevoia de a se
+                                        recrea</a></li>
+                                <li><a class="dropdown-item" href="https://paginadenursing.ro/nevoia-de-a-invata/"
+                                        target="blank">Nevoia
+                                        de a
+                                        &icirc;nv&#259;&#355;a
+                                        cum s&#259;-&#355;i p&#259;strezi
+                                        s&#259;n&#259;tatea</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <button class="navbar-toggler ms-5 mb-3" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </nav>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <section class="menu-page3 container-fluid m-0">
-        <div class="row">
+    <section class="menu-page3 container-fluid mt-5">
+        <div class="row mt-3">
             <article class="col-6">
-                <img src="imagini/maslow.jpg" alt="Image" class="w-100">
+                <img src="imagini/maslow.jpg" alt="Image" class="w-100 mt-5">
                 <h3 class="text-center m-0 pt-3 pb-3" onclick="myFunction3()">Dupa Maslow</h3>
             </article>
             <article class="col-6">
-                <img src="imagini/virginia.png" alt="Image" class="w-100">
+                <img src="imagini/virginia.png" alt="Image" class="w-100 mt-5">
                 <h3 class="text-center m-0 pt-3 pb-3" onclick="myFunction4()">Dupa V. Henderson</h3>
             </article>
         </div>
@@ -147,8 +149,7 @@
                         Maslow e de
                         părere că educatorii ar trebui sa fie răspunzători de potențialul pe care îl are un individ
                         pentru a
-                        ajunge la auto-actualizare în felul său.
-                    </p>
+                        ajunge la auto-actualizare în felul său.</p>
                 </div>
                 <ol class="col-12 col-md-8 p-5 m-0">
                     <li><strong>Pe nivelul cel mai jos sunt plasate nevoile fiziologice.</strong>Nevoia de hrană, de
@@ -157,8 +158,7 @@
                         deoparte
                         instinctul de prădător, de animal, pentru a se asocia în vederea supraviețuirii. Fără
                         satisfacerea
-                        nevoilor de bază, ființa umană încetează să subziste.
-                    </li>
+                        nevoilor de bază, ființa umană încetează să subziste.</li>
                     <li><strong>Nivelul următor, al doilea, este dedicat așa numitor nevoi ce țin de siguranța
                             personală.</strong>Nu are legătură cu nevoile fiziologice ? Nu, e mai mult. Pentru că
                         siguranța
@@ -168,33 +168,26 @@
                         care-ți
                         permite acel confort psihic necesar funcționării eficiente, eliberat de angoasele traiului de zi
                         cu
-                        zi.
-                    </li>
-                    <li>
-                        <strong>Al treilea nivel este dedicat nevoilor sociale, de apartenență. </strong>
+                        zi.</li>
+                    <li><strong>Al treilea nivel este dedicat nevoilor sociale, de apartenență. </strong>
                         Omul simte acest imbold de a intra în relații cu ceilalți, de a încadra în grupuri sociale
                         extinse.
                         Și vorbim aici de grupuri religioase, organizații profesionale, echipe sportive, grupuri de
                         simpatizați ai unei persoane sau cauze, sau chiar grupuri aflate la limita legii. În forma lor
                         restrânsă, grupurile sociale ce satisfac nevoia de aparență sunt familia, partenerul de viață,
-                        colegii apropiați sau confidenții.
-                    </li>
-                    <li>
-                        <strong>Pe nivelul al patrulea, Maslow plasează nevoia de recunoaștere socială,</strong>
+                        colegii apropiați sau confidenții.</li>
+                    <li><strong>Pe nivelul al patrulea, Maslow plasează nevoia de recunoaștere socială,</strong>
                         încrederea în sine, respectul de sine. Jabberjaw, personaj făcut celebru de Hanna-Barbera avea o
                         vorbă „No respect”, asta întrucât i se interzicea accesul doar pentru că era un „biet” rechin.
                         Râdem, dar lipsa respectului poate da naștere cu vremea la sentimente de inferioritate,
                         transformate
-                        în complex de inferioritate și inalienare socială.
-                    </li>
-                    <li>
-                        <strong>În sfârșit, ultimul nivel, al cincilea, este rezervat de Maslow dezvoltării personale,
+                        în complex de inferioritate și inalienare socială.</li>
+                    <li><strong>În sfârșit, ultimul nivel, al cincilea, este rezervat de Maslow dezvoltării personale,
                             autorealizării</strong>
                         Împlinirii potențialului, am spune astăzi. Hobby-urile, mai cu seamă cele costisitoare (plăcerea
                         de
                         a călători, de picta, de a învăța o limbă străină doar a citi un autor în original) se află în
-                        vârful ierarhiei piramidei nevoilor. Și e destul de greu de atins.
-                    </li>
+                        vârful ierarhiei piramidei nevoilor. Și e destul de greu de atins.</li>
                 </ol>
             </div>
         </div>
@@ -212,8 +205,7 @@
                         bio-psiho-sociale, și
                         culturale ale individului. Conform acesteia, asistenta medicală trebuie să aibă ca și țel al
                         profesiei,
-                        atingerea de către pacient a independenței acestor nevoi principale.
-                    </p>
+                        atingerea de către pacient a independenței acestor nevoi principale.</p>
                 </div>
                 <div class="items col-12 col-md-8">
                     <div class="container">
@@ -222,95 +214,73 @@
                                 <h3>Nevoia de a comunica</h3>
                                 <img src="imagini/comunicare.jpg" alt="Image">
                                 <p class="p-1">Necesitatea de a schimba informaţii cu semenii printr-un proces dinamic
-                                    verbal şi
-                                    nonverbal.
+                                    verbal şi nonverbal.
                                     Asistenta trebuie să supravegheze bolnavul, să observe faciesul, starea acestuia,
-                                    modul în
-                                    care
-                                    comunică
-                                    și cât comunică.
-                                </p>
+                                    modul în care comunică și cât comunică.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a se misca si a avea o buna postura</h3>
                                 <img src="imagini/miscare.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a fi în mişcare, de a se mobiliza, de a păstra anumite poziţii.
-                                    Pentru
-                                    atingerea
-                                    gradului
+                                <p class="p-1">Necesitatea de a fi în mişcare, de a se mobiliza, de a păstra anumite
+                                    poziţii.
+                                    Pentru atingerea gradului
                                     de independență al acestei nevoi, asistenta trebuie să observe poziția pacientului
-                                    și să îl
-                                    mobilizeze.
-                                </p>
+                                    și să îl mobilizeze.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a fi curat ingrijit si de a proteja tegumentele si mucoasele</h3>
                                 <img src="imagini/curat.jfif" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a menţine o ţinută decentă, piele curată, sănătoasă.
+                                <p class="p-1">Necesitatea de a menţine o ţinută decentă, piele curată, sănătoasă.
                                     Pacientul trebuie să aibă lenjerie curată de pat, să asigure igiena, să i se
-                                    îngrijească
-                                    plăgile și
-                                    să
-                                    se prevină apariția escarelor de decubit.
-                                </p>
+                                    îngrijească plăgile și să
+                                    se prevină apariția escarelor de decubit.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a se imbraca si dezbraca</h3>
                                 <img src="imagini/imbraca.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a purta haine adecvate.
-                                    Asistenta trebuie să acorde ajutor pacientului pentru a se îmbrăca și dezbrăca.
-                                </p>
+                                <p class="p-1">Necesitatea de a purta haine adecvate.
+                                    Asistenta trebuie să acorde ajutor pacientului pentru a se îmbrăca și dezbrăca.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a respira si a avea o circulatie adecvata</h3>
                                 <img src="imagini/respira.jpg" alt="Image">
-                                <p class="p-1">
-                                    Captarea oxigenului din mediu extern, necesar proceselor de oxidare din organism, şi
-                                    de a
-                                    elimina
-                                    bioxidul de carbon rezultat din arderi celulare.
-                                </p>
+                                <p class="p-1">Captarea oxigenului din mediu extern, necesar proceselor de oxidare din
+                                    organism, şi
+                                    de a elimina
+                                    bioxidul de carbon rezultat din arderi celulare.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a mentine temperatura corpului in limitele normei</h3>
                                 <img src="imagini/temperatura.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a menţine temperatura corpului la valori normale, constante.
-                                </p>
+                                <p class="p-1">Necesitatea de a menţine temperatura corpului la valori normale,
+                                    constante.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a manca si a bea</h3>
                                 <img src="imagini/manca.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a ingera şi absorbi alimente de bună calitate şi în cantitate
+                                <p class="p-1">Necesitatea de a ingera şi absorbi alimente de bună calitate şi în
+                                    cantitate
                                     suficientă.
                                     Asistenta trebuie să observe apetitul pacientului, să îl alimenteze activ sau pasiv
-                                    și să
-                                    calculeze
-                                    rația alimentară.
-                                </p>
+                                    și să calculeze rația alimentară.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a elimina</h3>
                                 <img src="imagini/elimina.jfif" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a elimina substanţele nefolositoare, vătămătoare, rezultate din
+                                <p class="p-1">Necesitatea de a elimina substanţele nefolositoare, vătămătoare,
+                                    rezultate din
                                     metabolism.
                                     Asistenta trebuie să măsoare și să noteze diureza, expectorația, vărsăturile,
                                     scaunele. Ea
                                     trebuie
                                     să
-                                    facă bilanțul hidric.
-                                </p>
+                                    facă bilanțul hidric.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a evita pericolele</h3>
                                 <img src="imagini/pericole.jfif" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a fi protejat contra agresiunilor interne sau externe, pentru
+                                <p class="p-1">Necesitatea de a fi protejat contra agresiunilor interne sau externe,
+                                    pentru
                                     menţinerea
                                     integrităţii
                                     sale fizice şi psihice.
@@ -318,63 +288,46 @@
                                     cu
                                     strictețe
                                     normele
-                                    de asepsie, antisepsie, sterilitate.
-                                </p>
+                                    de asepsie, antisepsie, sterilitate.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a dormi si a se odihni</h3>
                                 <img src="imagini/dormi.jfif" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a se odihni timp suficient, în bune condiţii.
+                                <p class="p-1">Necesitatea de a se odihni timp suficient, în bune condiţii.
                                     Asistenta trebuie să asigure bolnavului un cadru de relaxare, unde să poate să aiba
-                                    un somn
-                                    de
-                                    calitate
+                                    un somn de calitate
                                     și odihnitor. Ea trebuie să învețe pacientul cu probleme în această nevoie, metode
-                                    de odihnă
-                                    și de
-                                    relaxare.
-                                </p>
+                                    de odihnă și de relaxare.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a actiona conform propriilor convingeri si valori</h3>
                                 <img src="imagini/crede.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea individului de a face sau exprima gesturi, acte, conform formaţiei sale,
-                                    de bine
-                                    şi de
-                                    rău,
+                                <p class="p-1">Necesitatea individului de a face sau exprima gesturi, acte, conform
+                                    formaţiei sale,
+                                    de bine şi de rău,
                                     de dreptate, în virtutea unei ideologii.Respectarea oricărei credințe, religii,
-                                    valori.
-                                </p>
+                                    valori.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a fi util si a se autorealiza</h3>
                                 <img src="imagini/util.jfif" alt="Image">
-                                <p class="p-1">
-                                    Nevoia de a înfăptui activități utile zilnice.
-                                </p>
+                                <p class="p-1">Nevoia de a înfăptui activități utile zilnice.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevia de a se recrea</h3>
                                 <img src="imagini/recrea.jfif" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a se destinde, de a se distra, recurgând la activităţi agreabile,
-                                    pentru
-                                    relaxare
-                                    fizică
+                                <p class="p-1">Necesitatea de a se destinde, de a se distra, recurgând la activităţi
+                                    agreabile,
+                                    pentru relaxare fizică
                                     şi psihică.
                                     Pentru independența acestei nevoie este necesară integritatea fizică și psihică și
-                                    atingerea
-                                    acestui
-                                    scop.
-                                </p>
+                                    atingerea acestui scop.</p>
                             </div>
                             <div class="text-center col-12 col-md-6">
                                 <h3>Nevoia de a invata</h3>
                                 <img src="imagini/invata.jpg" alt="Image">
-                                <p class="p-1">
-                                    Necesitatea de a acumula cunoştinţe, atitudini şi deprinderi pentru modificarea
+                                <p class="p-1">Necesitatea de a acumula cunoştinţe, atitudini şi deprinderi pentru
+                                    modificarea
                                     comportamentului sau
                                     adoptarea de noi comportamente, în scopul redobândirii sănătăţii sau menţinerii ei.
                                 </p>

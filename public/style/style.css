@@ -1,10 +1,13 @@
-body{
+body {
     font-family: Roboto;
 }
+nav {
+    font-size: 20px;
+}
   
-header div p.logo{
+header div p.logo {
     font-family: Vivaldi; 
-    font-size: 24px;
+    font-size: 14px;
     width: fit-content;
     border-style: dashed;
     animation-name: Bord;
@@ -12,159 +15,150 @@ header div p.logo{
     animation-iteration-count: infinite;
 }
   
-@keyframes Bord{
+@keyframes Bord {
     0% {border-color:rebeccapurple;}
     25% {border-color: salmon;}
     50% {border-color: yellow;}
     100% {border-color: black;}
 }
 
-footer{
+footer {
     color: #a9a9a9;
     font-size: 18px;
 }
 
-main.page2 div.menu-page2{
+main.page2 div.menu-page2 {
     background-color: #f5f5cd;
 }
 
-article.menu-button{
+article.menu-button {
     background-color: #f5f5cd;
 }
 
-article.menu-button:hover{
+article.menu-button:hover {
     border: 3px solid black;
 }
 
-article.menu-button img{
+article.menu-button img {
     width: 50px;
     justify-self: center;
     align-self: start;
 }
 
-article.menu-button h3{
+article.menu-button h3 {
     font-size: 24px;
     justify-self: center;
 }
 
-main.page2 div.content{
+main.page2 div.content {
     background-color: #e6e6fa;
     font-size: 24px;
     display: none;
 }
 
-main.page2 div.content h3{
+main.page2 div.content h3 {
     font-size: 48px;
 }
 
 main.page2 div.content button.next,
 main.page2 div.content button.back,
-main.page2 div.content button.back1{
+main.page2 div.content button.back1 {
     background-color: #c4c4c4;
     width: 125px;
     font-size: 28px;
     justify-self: end;
 }
 
-main.page2 div.content button.back1{
+main.page2 div.content button.back1 {
     justify-self: start;
 }
 
-main.page2 div.content button.back{
+main.page2 div.content button.back {
     justify-self: start;
     margin-top: -40px;
 }
 
-section.menu-page3 article h3{
+section.menu-page3 article h3 {
     font-size: 25px;
     border: 3px solid black;
 }
 
-section.menu-page3 article h3:hover{
+section.menu-page3 article h3:hover {
     border-color: #FCDDEC;
     color: #FFC5FF;
 }
 
 section#maslow,
-section#virginia{
+section#virginia {
     display: none;
 }
 
-div.information img{
+div.information img {
     width: 330px;
     border-radius: 40px;
 }
 
-div.information{
+div.information {
     background-color: #e6e6fa;
 }
 
-div.information p{
-    font-size: 24px;
-}
-
-section#maslow ol{
+section#maslow ol {
     background-color: #f5f5cd;
     font-size: 24px;
 }
 
-section#virginia div.items{
+section#virginia div.items {
     background-color: #f5f5cd;
 }
 
-section#virginia div.items img{
+section#virginia div.items img {
     width: 200px;
     place-self: center;
 }
 
-section.page4-info{
+section.page4-info {
     background-color: #f5f5cd;
 }
 
 section.page4-info h2,
 section.page4-info2 h2,
-section.page4-info3 h2{
+section.page4-info3 h2 {
     font-size: 36px;
 }
 
-section.page4-info ol{
- font-size: 24px;
+section.page4-info ol,
+section.page4-info3 p,
+section.page5 form label,
+div.information p {
+    font-size: 24px;
 }
 
 section.page4-info2,
-section.page4-info3{
+section.page4-info3 {
     background-color: #f5f5cd;
 }
 
-section.page4-info3 p{
-    font-size: 24px;
-}
-
-section.page4-info3 h3{
+section.page4-info3 h3 {
     font-size: 30px;
 }
 
-section.page5{
+section.page5 {
     background-color: #e6e6fa;
 }
 
-section.page5 h2{
+section.page5 h2 {
     font-size: 38px;
 }
 
-section.page5 div.left{
+section.page5 div.left {
     font-size: 28px;
 }
 
-section.page5 form label{
-    font-size: 24px;
-}
-
-section.page5 form input{
+section.page5 form input {
     width: 90%;
 }
 
-section.page5 form input#submit{
+section.page5 form input#submit {
     width: 150px;
     font-size: 20px;
     border-radius: 45px;
@@ -172,35 +166,38 @@ section.page5 form input#submit{
 }
 
 @media (max-width: 1000px) {
-    header div p.logo{
+    header div p.logo,
+    footer {
       font-size: 12px;
     }
-    header nav a{
+
+    header nav a {
       font-size: 14px;
     }
-    header nav button{
+
+    header nav button {
       width: 100px;
       height: 40px;
       font-size: 12px;
     }
-    footer{
-      font-size: 12px;
-    }
+
     nav ul li.active ul.dropdown-content {
         width: 300px;
     }
-    div.information img{
+
+    div.information img {
         width: 250px;
     }
 }
     
 @media (max-width: 500px) {
-    main.page2 div.content h3{
+    main.page2 div.content h3 {
         font-size: 30px;
     }
+
     main.page2 div.content button.next,
     main.page2 div.content button.back,
-    main.page2 div.content button.back1{
+    main.page2 div.content button.back1 {
         width: 100px;
     }
     nav ul li.active ul.dropdown-content {
@@ -208,12 +205,15 @@ section.page5 form input#submit{
         border: none;
         position: relative;
     }
+
     section.page4-info h2,
     section.page4-info2 h2,
-    section.page4-info3 h2{
+    section.page4-info3 h2 {
         font-size: 28px;
     }
-    section.menu-page3 article h3{
+
+    section.menu-page3 article h3 {
         height: 58px;
+        font-size: 12px;
     }
 }
